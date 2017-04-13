@@ -4,3 +4,5 @@ ESG3 is a college work software for Small Business Management written in C/C++. 
 ![alt tag](https://github.com/AramisHM/esg3/blob/master/snapshots/snapshot_1.PNG)
 ![alt tag](https://github.com/AramisHM/esg3/blob/master/snapshots/snapshot_2.PNG)
 ![alt tag](https://github.com/AramisHM/esg3/blob/master/snapshots/snapshot_3.PNG)
+
+ESG3 is based in part on the work of the FLTK project (http://www.fltk.org).

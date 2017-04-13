@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d170ae29-a7a8-4da2-823f-97ff9a5c8a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Classes">
+      <UniqueIdentifier>{f43d0460-6fda-4697-9863-7a91a364ca56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{cb72896c-3a8f-4f5d-b0a8-1b5ec1294f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Janela Cliente">
+      <UniqueIdentifier>{b674697c-16a8-4b13-8c1a-adfe1c192f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Janela Home">
+      <UniqueIdentifier>{8987f523-8af5-4e3f-80b5-59f91f4ad9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Assets and Details">
+      <UniqueIdentifier>{136b619b-5c67-4c05-bddd-39f221b8a1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Janela Produto">
+      <UniqueIdentifier>{a9d477cf-acd1-4676-9065-19d2496c1be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Classes\Cliente">
+      <UniqueIdentifier>{3755a5ed-f013-4fc9-9826-c6e71a09faf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Classes\Produto">
+      <UniqueIdentifier>{11a625b9-aed2-473d-9469-20f6d144721c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Sistema">
+      <UniqueIdentifier>{6f3da686-c079-4a38-b9b3-1b48fe824475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Classes\Produto_Venda">
+      <UniqueIdentifier>{80a4d7ae-3b5b-4308-b612-dafd93cd1b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Classes\Venda">
+      <UniqueIdentifier>{231a35e2-2e4a-40a7-919e-1e5988dc50b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Janela Venda">
+      <UniqueIdentifier>{005bdd39-91c6-47e9-a9e9-54473f03fe09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Home.h">
+      <Filter>Source Files\GUI\Janela Home</Filter>
+    </ClInclude>
+    <ClInclude Include="Globais.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="JanelaClientes.h">
+      <Filter>Source Files\GUI\Janela Cliente</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Source Files\GUI\Assets and Details</Filter>
+    </ClInclude>
+    <ClInclude Include="JanelaProdutos.h">
+      <Filter>Source Files\GUI\Janela Produto</Filter>
+    </ClInclude>
+    <ClInclude Include="assets.h">
+      <Filter>Source Files\GUI\Assets and Details</Filter>
+    </ClInclude>
+    <ClInclude Include="CProduto.h">
+      <Filter>Source Files\Core\Classes\Produto</Filter>
+    </ClInclude>
+    <ClInclude Include="CCliente.h">
+      <Filter>Source Files\Core\Classes\Cliente</Filter>
+    </ClInclude>
+    <ClInclude Include="JanelaLogin.h">
+      <Filter>Source Files\GUI\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="CVenda.h">
+      <Filter>Source Files\Core\Classes\Venda</Filter>
+    </ClInclude>
+    <ClInclude Include="CProduto_Venda.h">
+      <Filter>Source Files\Core\Classes\Produto_Venda</Filter>
+    </ClInclude>
+    <ClInclude Include="JanelaVendas.h">
+      <Filter>Source Files\GUI\Janela Venda</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="software_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>Source Files\GUI\Janela Home</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaClientes.cpp">
+      <Filter>Source Files\GUI\Janela Cliente</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientes.cpp">
+      <Filter>Source Files\Core\Classes\Cliente</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaEditarProdutos.cpp">
+      <Filter>Source Files\GUI\Janela Produto</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaExcluirProduto.cpp">
+      <Filter>Source Files\GUI\Janela Produto</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaInserirProduto.cpp">
+      <Filter>Source Files\GUI\Janela Produto</Filter>
+    </ClCompile>
+    <ClCompile Include="CProduto.cpp">
+      <Filter>Source Files\Core\Classes\Produto</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaProdutos.cpp">
+      <Filter>Source Files\GUI\Janela Produto</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaLogin.cpp">
+      <Filter>Source Files\GUI\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="CVenda.cpp">
+      <Filter>Source Files\Core\Classes\Venda</Filter>
+    </ClCompile>
+    <ClCompile Include="CProduto_Venda.cpp">
+      <Filter>Source Files\Core\Classes\Produto_Venda</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaVendas.cpp">
+      <Filter>Source Files\GUI\Janela Venda</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaInserirCliente.cpp">
+      <Filter>Source Files\GUI\Janela Cliente</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaEditarCliente.cpp">
+      <Filter>Source Files\GUI\Janela Cliente</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaInserirVenda.cpp">
+      <Filter>Source Files\GUI\Janela Venda</Filter>
+    </ClCompile>
+    <ClCompile Include="JanelaConsultarVendas.cpp">
+      <Filter>Source Files\GUI\Janela Venda</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
